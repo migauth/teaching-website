@@ -1,20 +1,22 @@
 ---
-import astroLogo from '../assets/astro.svg';
-import background from '../assets/background.svg';
+// import astroLogo from '../assets/astro.svg';
+// import background from '../assets/background.svg';
+
 ---
 
 <div id="container">
-	<img id="background" src={background.src} alt="" fetchpriority="high" />
+	<!-- <img id="background" src={background.src} alt="" fetchpriority="high" /> -->
 	<main>
 		<section id="hero">
-			<a href="https://astro.build"
+			<!-- <a href="https://astro.build"
 				><img src={astroLogo.src} width="115" height="48" alt="Astro Homepage" /></a
-			>
+			> -->
 			<h1>
 				To get started, open the <code><pre>src/pages</pre></code> directory in your project.
 			</h1>
 				<a href="/about/">about</a>
 				<a href="/blog/">blog</a>
+				<a href="/lessons/">lessons</a>
 
 			<section id="links">
 				<a class="button" href="https://docs.astro.build">Read our docs</a>
@@ -77,6 +79,7 @@ import background from '../assets/background.svg';
 	h1 {
 		font-size: 22px;
 		margin-top: 0.25em;
+		color: orange;
 	}
 
 	#links {
