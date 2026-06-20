@@ -1,4 +1,6 @@
 ---
+import Footer from "../components/Footer.astro";
+
 const identity = {
   firstName: "Sarah",
   country: "Canada",
@@ -61,6 +63,8 @@ const textCase = "uppercase"
       {skills.map((skill) => <li class="skill">{skill}</li>)}
     </ul>
   </body>
+  	<Footer/>
+
 </html>
 
 <style define:vars={{skillColor, fontWeight, textCase}}>
