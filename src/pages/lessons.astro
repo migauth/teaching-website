@@ -1,4 +1,12 @@
 ---
+import BaseLayout from '../layouts/BaseLayout.astro';
+const pageTitle = "Lessons";
+---
+<BaseLayout pageTitle={pageTitle}>
+  <h2>Here are my lessons</h2>
+</BaseLayout>
+<!-- 
+---
 import Footer from "../components/Footer.astro";
 
 const identity = {
@@ -73,4 +81,4 @@ const textCase = "uppercase"
     font-weight: var(--fontWeight);
     text-transform: var(--textCase);
   }
-</style>
+</style> -->
